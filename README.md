@@ -1,0 +1,1 @@
+look for differences in the config/routes or anything that might have to do with routing.
