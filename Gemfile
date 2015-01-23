@@ -50,4 +50,11 @@ group :development do
 	gem 'quiet_assets'
 	gem 'rails_layout'	
 	gem 'binding_of_caller'
+	gem 'sqlite3'
+end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'thin'
 end
