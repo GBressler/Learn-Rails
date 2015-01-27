@@ -87,6 +87,7 @@ config.action_mailer.smtp_settings = {
   domain: Rails.application.secrets.email_provider_username,
   authentication: "plain",
   enable_starttls_auto: true
+  user_name: Rails.application.secrets.email_provider_username,
   password: Rails.application.secrets.email_provider_password
 }
 
